@@ -1,0 +1,6 @@
+name: Email change notifier.
+type: module
+description: 'Catchs changing email address by suer and send email notification to administrators (and other people who was added to config list) .'
+core_version_requirement: '^8 || ^9'
+package: SSO
+configure: sc_sso_email_change_notifier.recipient_list_form

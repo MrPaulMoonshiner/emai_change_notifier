@@ -1,0 +1,15 @@
+sc_sso_email_change_notifier.admin_index:
+  title: Email change notifier
+  description: 'Configuring security settings.'
+  parent: system.admin_config
+  route_name: sc_sso_email_change_notifier.admin_index
+
+sc_sso_email_change_notifier.recipient_list_form:
+  route_name: sc_sso_email_change_notifier.recipient_list_form
+  title: 'Manage recipient list'
+  parent: sc_sso_email_change_notifier.admin_index
+
+sc_sso_email_change_notifier.email_text_form:
+  route_name: sc_sso_email_change_notifier.email_text_form
+  title: 'Manage recipient list'
+  parent: sc_sso_email_change_notifier.admin_index

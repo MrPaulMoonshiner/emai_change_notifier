@@ -1,0 +1,10 @@
+sc_sso_email_change_notifier.recipient_action:
+  route_name: 'sc_sso_email_change_notifier.email_text_form'
+  title: 'Change text of email'
+  appears_on:
+    - sc_sso_email_change_notifier.recipient_list_form
+sc_sso_email_change_notifier.email_text_action:
+  route_name: 'sc_sso_email_change_notifier.recipient_list_form'
+  title: 'Change recipients list'
+  appears_on:
+        - sc_sso_email_change_notifier.email_text_form

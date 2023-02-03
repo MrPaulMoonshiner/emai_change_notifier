@@ -1,0 +1,23 @@
+sc_sso_email_change_notifier.recipient_list_form:
+  path: '/admin/config/recipient/list'
+  defaults:
+    _form: 'Drupal\sc_sso_email_change_notifier\Form\RecipientsConfigForm'
+    _title: 'Recipients list'
+  requirements:
+    _permission: 'administer sso email change notifier'
+
+sc_sso_email_change_notifier.email_text_form:
+  path: '/admin/config/recipient/text'
+  defaults:
+    _form: 'Drupal\sc_sso_email_change_notifier\Form\RecipientsEmailForm'
+    _title: 'Text of email notification'
+  requirements:
+    _permission: 'administer sso email change notifier'
+
+sc_sso_email_change_notifier.admin_index:
+  path: '/admin/config/email-notifier'
+  defaults:
+    _controller: '\Drupal\system\Controller\SystemController::systemAdminMenuBlockPage'
+    _title: 'Email notifier settings'
+  requirements:
+    _permission: 'administer site configuration'

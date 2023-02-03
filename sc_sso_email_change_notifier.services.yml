@@ -1,0 +1,6 @@
+services:
+  sc_sso_user_update:
+    class: Drupal\sc_sso_email_change_notifier\EventSubscriber\UserUpdateSubscriber
+    arguments: [ '@config.factory', '@datetime.time', '@plugin.manager.mail' ]
+    tags:
+      - { name: 'event_subscriber' }

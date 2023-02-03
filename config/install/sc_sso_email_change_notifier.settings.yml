@@ -1,0 +1,3 @@
+sc_sso_list_of_recipients:
+  - test@test.com
+sc_sso_text_of_email: "Text of email"

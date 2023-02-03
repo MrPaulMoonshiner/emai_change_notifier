@@ -1,0 +1,4 @@
+administer sso email change notifier:
+  title: 'Administer email change notifier list.'
+  description: 'Administer list of notifiers who gets email on user email change action.'
+  restrict access: true
